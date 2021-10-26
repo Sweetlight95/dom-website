@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0 !important;
+
+}
+.mobile_frame{
+    background-color: white;
+    width: 1440px;
+    height: 3800px;
+    position: relative;
+}
+.top_nav {
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(234, 225, 225, 0.25);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 99vw;
+    left: 0px;
+    top: 0px;
+
+}
+.top_nav .logo {
+    height: 2.5rem;
+    position: relative;
+    left: 6rem;
+}
+.top_nav .chevron-down {
+    position: absolute;
+
+}
+.top_nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #455A64;
+    height: 24px;
+}
+    input[type="text"] {
+        color: #ff2e2e;
+        border: 1px solid #ff2e2e;
+        height: 50px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-family: IBM Plex Sans;
+        line-height: 23px;
+        width: 200px;
+        margin-bottom: 18px;
+    }
+    .btn {
+        background-color: #ff2e2e;
+        border-radius: 3px;
+        height: 53px;
+        width: 170px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        position: relative;
+        right: 6rem;
+    }
+    .innovation_container {
+        position: absolute;
+        height: 466px;
+        width: 2250px;
+        top: 132px;
+        left: 81px;
+        background-color:  #ffffff;
+        box-shadow: 0px 4px 30px rgba(216, 211, 211, 0.4);
+        display: flex;
+        justify-content: space-between;
+    }
+    .innovation_container .impact { 
+        padding-left: 3rem;
+        padding-top: 1.5rem;
+    }
+    .innovation_container h2 {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 62px;
+        font-style: normal;
+        color: #e90011;
+    }
+    .innovation_container p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #455a64;
+    }
+    .btn2 {
+        background-color: #ff2e2e;
+        border-radius: 3px;
+        height: 53px;
+        width: 170px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        position: relative;
+        left: 2rem;
+    }
+    .natives {
+        position: relative;
+        left: -3.42%;
+        right: 8.09%;
+        top: 8.71%;
+        bottom: 4.1%;
+    }
+    .industry_container {
+        background-color: #fff2c7;
+        position: absolute;
+        width: 99vw;
+        height: 1000px;
+        top: 659px;
+        left: -4px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .industry_container .future h3 {
+        color: #960c0c;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 47px;
+        position: absolute;
+        width: 501px;
+        height: 96px;
+        left: 145px;
+        top: 8px;
+    }
+    .industry_container .future p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 35px;
+        position: absolute;
+        width: 400px;
+        height: 147px;
+        left: 145px;
+        top: 150px;
+        color: #000000;
+    }
+    input[type = "text2"] {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 17px;
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        left: 145px;
+        top: 400px;
+        color: #960c0c;
+        padding-left: 20px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        background-color: #fff6d7;
+    }
+    .chevrons-right {
+        border: none solid #000000;
+        position: absolute;
+        right: 49.17%;
+        bottom: 35.17%;
+        left: 17.18%;
+        top: 41.5%;
+    }
+    .wheel {
+        position: absolute;
+        width: 70%;
+        height: 46%;
+        left: 50%;
+        top: 2%;
+        bottom: 38%;
+        right: 33%;
+    }
+    .panel h3 {
+        color: #960c0c;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 47px;
+        position: absolute;
+        width: 501px;
+        height: 96px;
+        left: 75%;
+        top: 450px;
+    }
+    .panel p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 35px;
+        position: absolute;
+        width: 400px;
+        height: 96px;
+        left: 75%;
+        top: 590px;
+    }
+    .peek {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 17px;
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        left: 75%;
+        top: 800px;
+        color: #960c0c;
+        padding-left: 20px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        background-color: #fff6d7;
+    }
+    .chevrons-right2 {
+        border: none solid #000000;
+        position: absolute;
+        right: 49.17%;
+        bottom: 50%;
+        left: 86%;
+        top: 81.2%;
+    }
+    .learn_container {
+        display: flex;
+        position: absolute;
+        left: 4%;
+        top: 45%;
+        margin-top: 50px;
+        padding-right: 10px;
+    }
+    .training {
+        background-color: #fff9e5;
+        box-shadow: 4px 4px 20px rgba(218, 197, 197, 0.25);
+        border-radius: 6px;
+        width: 420px;
+        height: 420px;
+        top: 1200px;
+        left: 50px;
+        justify-content: center;
+    }
+    .training h3 {
+        color: #960c0c;
+        font-size: 36px;
+        font-weight: 600;
+        
+    }
